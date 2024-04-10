@@ -12,17 +12,40 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.png">
     <title>7. trinn</title>
 </head>
+  
+    <script>
+      function setFavicon(url) {
+        var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+          link.type = 'image/x-icon';
+          link.rel = 'shortcut icon';
+          link.href = url;
+          document.getElementsByTagName('head')[0].appendChild(link);
+      }
 
-         <br>
-  <center><h2>Many of these apps may not work, depending on the user's school network.</h2></center>
-     
-           <div class="row">
-            <div class="span1">
-               <div style="padding-top: 5px;" class="image-container" loading="lazy"><a class="game" onclick="go('https://vscode.dev')">
-                  <img style="border-radius: 25px;" src="assets/discord.jpg"></a>
-                <p3>VS Code</p3>
-                </div>
-             </div>
-           </div>
-           </div>
-           </div>
+      setFavicon('/assets/favicon/favicon.ico');
+    </script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1661929453635469"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header-section">
+    <div class="header-content">
+      <img src="assets/favicon/android-chrome-512x512.png" style="max-width: 100px; height: auto;">
+      <h1>School Bypassers</h1>
+      <nav>
+      <a href="https://samontop132.github.io/sam-games/">Back To Games</a>
+      <a href="https://samontop132.github.io/sam-games/bypass.html">School Bypassers</a>
+    </nav>
+    </div>
+  </header>
+  <div class="image-container">
+    <a href="apps/tiktok/index.html"><img src="assets/google.png"></a>
+    <a href="https://discord.com"><img src="assets/discord.jpg"></a>
+    <a href="https://www.xbox.com/en-us/play"><img src="assets/xboxcloudgaming.png"></a>
+    <a href="https://chatgptproxy.me"><img src="assets/openai.png"></a>
+  </div>
+</body>
+</html>
